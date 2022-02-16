@@ -76,15 +76,15 @@ namespace dvFirstProject
                 while (dr.Read())
                 {
                    
-                    Ooogrenci ogrenci = new Ooogrenci();
+                    Ooogrenci t = new Ooogrenci();
                    
-                    ogrenci.id = Convert.ToInt32(dr["id"]);
+                    t.id = Convert.ToInt32(dr["id"]);
                     
-                    ogrenci.ad = dr["ad"].ToString();
+                    t.ad = dr["ad"].ToString();
                     
-                    ogrenci.soyad = dr["soyad"].ToString();
+                    t.soyad = dr["soyad"].ToString();
                    
-                    liste.Add(ogrenci);
+                    liste.Add(t);
 
                 }
 

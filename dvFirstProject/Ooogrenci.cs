@@ -8,8 +8,9 @@ namespace dvFirstProject
 {
     internal class Ooogrenci
     {
-        public int id;
-        public string ad;
-        public string soyad;
+        public int id { get; set; }
+        public string ad { get; set; }
+
+        public string soyad { get; set; }
     }
 }
